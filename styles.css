@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: "Mukta", sans-serif;
+}
+
+.container{
+    margin: 100px auto;
+    background-color: rgba(54, 50, 50, 0.112);
+    width: 45%;
+    border-radius: 5px;
+    padding: 20px;
+}
+#form-input>*{
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+input ,button{
+    border: 1px solid grey;
+}
+
+#submit-btn{
+    background-color: rgb(5, 221, 5);
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(5, 221, 5);;
+    color: white;
+}
